@@ -1,3 +1,2 @@
 User-agent: *
 Disallow:
-Sitemap: https://ianhong95.github.io/sitemap.xml
