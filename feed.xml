@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Ian Hong</title>
-    <link href="https://ianhong95.github.io/portfolio_site/feed.xml" rel="self" />
-    <link href="https://ianhong95.github.io/portfolio_site" />
+    <link href="https://ianhong95.github.io/feed.xml" rel="self" />
+    <link href="https://ianhong95.github.io" />
     <updated>2026-03-24T18:48:48-04:00</updated>
     <author>
         <name>Ian</name>
     </author>
-    <id>https://ianhong95.github.io/portfolio_site</id>
+    <id>https://ianhong95.github.io</id>
 
     <entry>
         <title>Custom 3D Printer Motions</title>
         <author>
             <name>Ian</name>
         </author>
-        <link href="https://ianhong95.github.io/portfolio_site/custom-3d-printer-motions.html"/>
-        <id>https://ianhong95.github.io/portfolio_site/custom-3d-printer-motions.html</id>
-        <media:content url="https://ianhong95.github.io/portfolio_site/media/posts/19/PXL_20230827_052659439.jpg" medium="image" />
+        <link href="https://ianhong95.github.io/custom-3d-printer-motions.html"/>
+        <id>https://ianhong95.github.io/custom-3d-printer-motions.html</id>
+        <media:content url="https://ianhong95.github.io/media/posts/19/PXL_20230827_052659439.jpg" medium="image" />
 
         <updated>2026-03-23T21:15:39-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://ianhong95.github.io/portfolio_site/media/posts/19/PXL_20230827_052659439.jpg" alt="" />
+                        <img src="https://ianhong95.github.io/media/posts/19/PXL_20230827_052659439.jpg" alt="" />
                     Introduction I ran out of things to print so I decided to experiment with custom motion control on my 3D printer. I wrote a Python interface that enables scripting chains of custom gcode commands. This was actually more complicated to do than I expected because&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://ianhong95.github.io/portfolio_site/media/posts/19/PXL_20230827_052659439.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://ianhong95.github.io/media/posts/19/PXL_20230827_052659439.jpg" class="type:primaryImage" alt="" /></p>
                 <h1>Introduction</h1>
 <p>I ran out of things to print so I decided to experiment with custom motion control on my 3D printer. I wrote a Python interface that enables scripting chains of custom gcode commands.</p>
 <h1>Demos</h1>
@@ -46,20 +46,20 @@
         <author>
             <name>Ian</name>
         </author>
-        <link href="https://ianhong95.github.io/portfolio_site/harmonic-gearbox.html"/>
-        <id>https://ianhong95.github.io/portfolio_site/harmonic-gearbox.html</id>
-        <media:content url="https://ianhong95.github.io/portfolio_site/media/posts/18/harmonic_drive.png" medium="image" />
+        <link href="https://ianhong95.github.io/harmonic-gearbox.html"/>
+        <id>https://ianhong95.github.io/harmonic-gearbox.html</id>
+        <media:content url="https://ianhong95.github.io/media/posts/18/harmonic_drive.png" medium="image" />
 
         <updated>2026-03-23T21:13:53-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://ianhong95.github.io/portfolio_site/media/posts/18/harmonic_drive.png" alt="" />
+                        <img src="https://ianhong95.github.io/media/posts/18/harmonic_drive.png" alt="" />
                     Introduction Harmonic gearboxes are marvels of engineering that have always fascinated me. It's amazing that someone thought "hey, let's make a FLEXIBLE gear" and it worked. Naturally, I had to try to make my own to better understand it. A flexible PLA cup with 82&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://ianhong95.github.io/portfolio_site/media/posts/18/harmonic_drive.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://ianhong95.github.io/media/posts/18/harmonic_drive.png" class="type:primaryImage" alt="" /></p>
                 <h1>Introduction</h1>
 <p>Harmonic gearboxes are marvels of engineering that have always fascinated me. It's amazing that someone thought "hey, let's make a FLEXIBLE gear" and it worked. Naturally, I had to try to make my own to better understand it. A flexible PLA cup with 82 tiny teeth, what could go wrong?</p>
 <figure class="post__video"><video loading="lazy" width="800" height="400" controls="controls" data-mce-fragment="1">
@@ -82,20 +82,20 @@
         <author>
             <name>Ian</name>
         </author>
-        <link href="https://ianhong95.github.io/portfolio_site/ur5e-kinematics-simulation.html"/>
-        <id>https://ianhong95.github.io/portfolio_site/ur5e-kinematics-simulation.html</id>
-        <media:content url="https://ianhong95.github.io/portfolio_site/media/posts/17/UR5e_End-Effector_Frame.png" medium="image" />
+        <link href="https://ianhong95.github.io/ur5e-kinematics-simulation.html"/>
+        <id>https://ianhong95.github.io/ur5e-kinematics-simulation.html</id>
+        <media:content url="https://ianhong95.github.io/media/posts/17/UR5e_End-Effector_Frame.png" medium="image" />
 
         <updated>2026-03-22T22:00:01-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://ianhong95.github.io/portfolio_site/media/posts/17/UR5e_End-Effector_Frame.png" alt="" />
+                        <img src="https://ianhong95.github.io/media/posts/17/UR5e_End-Effector_Frame.png" alt="" />
                     Introduction In my previous project where I built my own 5-DOF robot arm, I learned that the Denavit-Hartenberg method for computing kinematics was quite inefficient as it involved a convoluted frame assignment procedure and many successive transformation matrix multiplications. I also crashed the robot quite&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://ianhong95.github.io/portfolio_site/media/posts/17/UR5e_End-Effector_Frame.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://ianhong95.github.io/media/posts/17/UR5e_End-Effector_Frame.png" class="type:primaryImage" alt="" /></p>
                 <h1>Introduction</h1>
 <p>In my previous project where I built my own 5-DOF robot arm, I learned that the Denavit-Hartenberg method for computing kinematics was quite inefficient as it involved a convoluted frame assignment procedure and many successive transformation matrix multiplications. I also crashed the robot quite a few times due to both major and minor math errors.<br><br>The purpose of this project is to deep dive into Screw Theory and numerical solvers as a more robust, computationally efficient, and universal method to control a robot arm. This method handles singularities more elegantly than the D-H method. The UR5e in a simulation environment enables me to experiment with kinematics formulas without going broke and worrying about breaking a physical robot.</p>
 <figure class="post__video"><video loading="lazy" width="760" height="379" style="width: 760px; height: 379px;" controls="controls" data-mce-fragment="1">
@@ -120,20 +120,20 @@
         <author>
             <name>Ian</name>
         </author>
-        <link href="https://ianhong95.github.io/portfolio_site/5-dof-robot-arm.html"/>
-        <id>https://ianhong95.github.io/portfolio_site/5-dof-robot-arm.html</id>
-        <media:content url="https://ianhong95.github.io/portfolio_site/media/posts/16/robot_arm_1.png" medium="image" />
+        <link href="https://ianhong95.github.io/5-dof-robot-arm.html"/>
+        <id>https://ianhong95.github.io/5-dof-robot-arm.html</id>
+        <media:content url="https://ianhong95.github.io/media/posts/16/robot_arm_1.png" medium="image" />
 
         <updated>2026-03-22T21:58:45-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://ianhong95.github.io/portfolio_site/media/posts/16/robot_arm_1.png" alt="" />
+                        <img src="https://ianhong95.github.io/media/posts/16/robot_arm_1.png" alt="" />
                     Introduction This is a hobby project where I designed and built a custom 5-DOF 3D printed robot arm, as well as a graphical user interface (GUI) to control the robot arm. The purpose is to explore communication protocols, robot kinematics (D-H method), and learn software&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://ianhong95.github.io/portfolio_site/media/posts/16/robot_arm_1.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://ianhong95.github.io/media/posts/16/robot_arm_1.png" class="type:primaryImage" alt="" /></p>
                 <h1 id="mcetoc_1jkcann29tg">Introduction</h1>
 <p>This is a hobby project where I designed and built a custom 5-DOF 3D printed robot arm, as well as a graphical user interface (GUI) to control the robot arm. The purpose is to explore communication protocols, robot kinematics (D-H method), and learn software design patterns (among many other concepts). This project is still very much a work in progress; I have many features in mind.</p>
 <div class="post__toc">
@@ -222,20 +222,20 @@
         <author>
             <name>Ian</name>
         </author>
-        <link href="https://ianhong95.github.io/portfolio_site/robot-grippers.html"/>
-        <id>https://ianhong95.github.io/portfolio_site/robot-grippers.html</id>
-        <media:content url="https://ianhong95.github.io/portfolio_site/media/posts/15/parallel_gripper_01-2.jpg" medium="image" />
+        <link href="https://ianhong95.github.io/robot-grippers.html"/>
+        <id>https://ianhong95.github.io/robot-grippers.html</id>
+        <media:content url="https://ianhong95.github.io/media/posts/15/parallel_gripper_01-2.jpg" medium="image" />
 
         <updated>2026-03-22T21:53:47-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://ianhong95.github.io/portfolio_site/media/posts/15/parallel_gripper_01-2.jpg" alt="" />
+                        <img src="https://ianhong95.github.io/media/posts/15/parallel_gripper_01-2.jpg" alt="" />
                     Introduction In an early startup venture (prior to any investor funding), I designed grippers to be mounted on a Dobot CR3 collaborative robot for extremely low-budget tech demonstrations. Simulation videos were hard to sell, so physical demonstrations were required. The grippers were used to showcase&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://ianhong95.github.io/portfolio_site/media/posts/15/parallel_gripper_01-2.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://ianhong95.github.io/media/posts/15/parallel_gripper_01-2.jpg" class="type:primaryImage" alt="" /></p>
                 <h1>Introduction</h1>
 <p>In an early startup venture (prior to any investor funding), I designed grippers to be mounted on a Dobot CR3 collaborative robot for extremely low-budget tech demonstrations. Simulation videos were hard to sell, so physical demonstrations were required. The grippers were used to showcase the accuracy of the software team's computer vision algorithms as well as the advantage of compliant parts to compensate for any inaccuracies. Various fingertip designs and textures were tested to explore picking reliability.</p>
 <h1>Design</h1>
@@ -243,13 +243,13 @@
 <h1>Types</h1>
 <p>There were many iterations of the parallel gripper, and different fingertips were adopted for different applications. The initial design used the most basic rigid fingertips, which could grasp reasonably well if the target was square and hard. For softer objects, a compliant material was needed such as rubber.</p>
 <div class="gallery-wrapper"><div class="gallery" data-is-empty="false" data-translation="Add images" data-columns="2">
-<figure class="gallery__item"><a href="https://ianhong95.github.io/portfolio_site/media/posts/15/gallery/robot_picking.PNG" data-size="479x652"><img loading="lazy" src="https://ianhong95.github.io/portfolio_site/media/posts/15/gallery/robot_picking-thumbnail.PNG" alt="" width="479" height="652"></a></figure>
-<figure class="gallery__item"><a href="https://ianhong95.github.io/portfolio_site/media/posts/15/gallery/parallel_gripper_02.jpg" data-size="2736x3648"><img loading="lazy" src="https://ianhong95.github.io/portfolio_site/media/posts/15/gallery/parallel_gripper_02-thumbnail.jpg" alt="" width="720" height="960"></a></figure>
-<figure class="gallery__item"><a href="https://ianhong95.github.io/portfolio_site/media/posts/15/gallery/parallel_gripper_03.jpg" data-size="2736x3648"><img loading="lazy" src="https://ianhong95.github.io/portfolio_site/media/posts/15/gallery/parallel_gripper_03-thumbnail.jpg" alt="" width="720" height="960"></a></figure>
-<figure class="gallery__item"><a href="https://ianhong95.github.io/portfolio_site/media/posts/15/gallery/parallel_gripper_01.jpg" data-size="2106x2129"><img loading="lazy" src="https://ianhong95.github.io/portfolio_site/media/posts/15/gallery/parallel_gripper_01-thumbnail.jpg" alt="" width="720" height="728"></a></figure>
+<figure class="gallery__item"><a href="https://ianhong95.github.io/media/posts/15/gallery/robot_picking.PNG" data-size="479x652"><img loading="lazy" src="https://ianhong95.github.io/media/posts/15/gallery/robot_picking-thumbnail.PNG" alt="" width="479" height="652"></a></figure>
+<figure class="gallery__item"><a href="https://ianhong95.github.io/media/posts/15/gallery/parallel_gripper_02.jpg" data-size="2736x3648"><img loading="lazy" src="https://ianhong95.github.io/media/posts/15/gallery/parallel_gripper_02-thumbnail.jpg" alt="" width="720" height="960"></a></figure>
+<figure class="gallery__item"><a href="https://ianhong95.github.io/media/posts/15/gallery/parallel_gripper_03.jpg" data-size="2736x3648"><img loading="lazy" src="https://ianhong95.github.io/media/posts/15/gallery/parallel_gripper_03-thumbnail.jpg" alt="" width="720" height="960"></a></figure>
+<figure class="gallery__item"><a href="https://ianhong95.github.io/media/posts/15/gallery/parallel_gripper_01.jpg" data-size="2106x2129"><img loading="lazy" src="https://ianhong95.github.io/media/posts/15/gallery/parallel_gripper_01-thumbnail.jpg" alt="" width="720" height="728"></a></figure>
 </div></div>
 <p>Among those designs was a vacuum gripper, which was very reliable for picking up solid flat objects such as boxes. However, it was not able to maintain a vacuum seal on dusty surface and very compliant materials such as plastic wrap.</p>
-<figure class="post__image"><img loading="lazy"  src="https://ianhong95.github.io/portfolio_site/media/posts/15/vacuum_gripper_01.jpg" alt="" width="402" height="536" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://ianhong95.github.io/portfolio_site/media/posts/15/responsive/vacuum_gripper_01-xs.jpg 640w ,https://ianhong95.github.io/portfolio_site/media/posts/15/responsive/vacuum_gripper_01-sm.jpg 768w ,https://ianhong95.github.io/portfolio_site/media/posts/15/responsive/vacuum_gripper_01-md.jpg 1024w ,https://ianhong95.github.io/portfolio_site/media/posts/15/responsive/vacuum_gripper_01-lg.jpg 1366w ,https://ianhong95.github.io/portfolio_site/media/posts/15/responsive/vacuum_gripper_01-xl.jpg 1600w ,https://ianhong95.github.io/portfolio_site/media/posts/15/responsive/vacuum_gripper_01-2xl.jpg 1920w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://ianhong95.github.io/media/posts/15/vacuum_gripper_01.jpg" alt="" width="402" height="536" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://ianhong95.github.io/media/posts/15/responsive/vacuum_gripper_01-xs.jpg 640w ,https://ianhong95.github.io/media/posts/15/responsive/vacuum_gripper_01-sm.jpg 768w ,https://ianhong95.github.io/media/posts/15/responsive/vacuum_gripper_01-md.jpg 1024w ,https://ianhong95.github.io/media/posts/15/responsive/vacuum_gripper_01-lg.jpg 1366w ,https://ianhong95.github.io/media/posts/15/responsive/vacuum_gripper_01-xl.jpg 1600w ,https://ianhong95.github.io/media/posts/15/responsive/vacuum_gripper_01-2xl.jpg 1920w"></figure>
 <h1>Challenges</h1>
 <p>Due to the lack of force control in the gripper, compliant materials were more favourable. The natural springiness applied a non-damaging amount of gripping force while maintaining pressure on the objects. This is particularly important when picking objects that vary in size and geometry, as the gripper can't know when the object has been picked.</p>
             ]]>
@@ -260,20 +260,20 @@
         <author>
             <name>Ian</name>
         </author>
-        <link href="https://ianhong95.github.io/portfolio_site/go-transit-dashboard.html"/>
-        <id>https://ianhong95.github.io/portfolio_site/go-transit-dashboard.html</id>
-        <media:content url="https://ianhong95.github.io/portfolio_site/media/posts/14/Screenshot-from-2026-02-09-14-08-29.png" medium="image" />
+        <link href="https://ianhong95.github.io/go-transit-dashboard.html"/>
+        <id>https://ianhong95.github.io/go-transit-dashboard.html</id>
+        <media:content url="https://ianhong95.github.io/media/posts/14/Screenshot-from-2026-02-09-14-08-29.png" medium="image" />
 
         <updated>2026-03-22T21:40:21-04:00</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://ianhong95.github.io/portfolio_site/media/posts/14/Screenshot-from-2026-02-09-14-08-29.png" alt="" />
+                        <img src="https://ianhong95.github.io/media/posts/14/Screenshot-from-2026-02-09-14-08-29.png" alt="" />
                     Introduction Metrolinx miraculously approved my request for a key for their open API, so I thought it would be fun to build a live dashboard to track the positions of their vehicles across Ontario. Unfortunately, I shut down the dashboard because the amount of data&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://ianhong95.github.io/portfolio_site/media/posts/14/Screenshot-from-2026-02-09-14-08-29.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://ianhong95.github.io/media/posts/14/Screenshot-from-2026-02-09-14-08-29.png" class="type:primaryImage" alt="" /></p>
                 <h1><span style="color: #000000;">Introduction</span></h1>
 <p>Metrolinx miraculously approved my request for a key for their open API, so I thought it would be fun to build a live dashboard to track the positions of their vehicles across Ontario. Unfortunately, I shut down the dashboard because the amount of data constantly being written to my home server would wear out the drives faster than I would like.</p>
 <p><img loading="lazy" src="https://github.com/ianhong95/GO_Dashboard/raw/main/assets/image-2.png" alt="alt text" data-is-external-image="true"></p>
