@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ianhong95.github.io/portfolio_site/sitemap.xml
