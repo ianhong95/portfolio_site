@@ -30,8 +30,8 @@
                     <p><img src="https://ianhong95.github.io/media/posts/17/Screenshot-from-2026-03-24-21-01-22.png" class="type:primaryImage" alt="" /></p>
                 <h1>Introduction</h1>
 <p>In my previous project where I built my own 5-DOF robot arm, I learned that the Denavit-Hartenberg method for computing kinematics was quite inefficient as it involved a convoluted frame assignment procedure and many successive transformation matrix multiplications. I also crashed the robot quite a few times due to both major and minor math errors.<br><br>The purpose of this project is to deep dive into Screw Theory and numerical solvers as a more robust, computationally efficient, and universal method to control a robot arm. This method handles singularities more elegantly than the D-H method. The UR5e in a simulation environment enables me to experiment with kinematics formulas without going broke and worrying about breaking a physical robot.</p>
-<figure class="post__video"><video loading="lazy" width="760" height="379" style="width: 760px; height: 379px;" controls="controls" data-mce-fragment="1">
-<source src="/home/ian/Documents/Publii/sites/ian-hong/input/media/files/robot_arm_demo.webm" type="video/webm" /></video></figure>
+<figure class="post__video"><video loading="lazy" width="800" height="399" style="width: 760px; height: 379px;" controls="controls" data-mce-fragment="1">
+<source src="/media/files/robot_arm_demo.webm" type="video/webm" /></video></figure>
 <h1>Kinematics</h1>
 <p>To solve the forward and inverse kinematics, I followed the theory detailed in Lynch and Park's Modern Robotics book. It is focused around Screw Theory, where every rigid body motion can be described by a rotation and translation along a single screw axis. Due to the complexity of this method, there are no analytical solutions so the motions are solved numerically using the Newton-Raphson iterative approach.</p>
 <h1>Current Functionality</h1>
@@ -183,11 +183,11 @@
 <h1 id="mcetoc_1jkcann29tp">Teaching</h1>
 <p>One of the side quests that came out of the GUI adventure was teaching the robot. I've seen this being used on industrial robots in the past, and I thought it would be an interesting learning experience to build it myself.</p>
 <figure class="post__video"><video loading="lazy" width="800" height="397" style="width: 800px; height: 397px;" controls="controls" data-mce-fragment="1">
-<source src="/home/ian/Documents/Publii/sites/ian-hong/input/media/files/robot_teaching.webm" type="video/webm" /></video></figure>
+<source src="/media/files/robot_teaching.webm" type="video/webm" /></video></figure>
 <h1 id="mcetoc_1jkcann29to">Kinematics</h1>
 <p>The kinematics of the robot arm were set up using the Denavit-Hartenberg (D-H) method, and solved analytically using basic trigonometry.</p>
 <figure class="post__video"><video loading="lazy" width="800" height="400" controls="controls" data-mce-fragment="1">
-<source src="/home/ian/Documents/Publii/sites/ian-hong/input/media/files/robot_arm_v2_demo.webm" type="video/webm" /></video></figure>
+<source src="/media/files/robot_arm_v2_demo.webm" type="video/webm" /></video></figure>
 <figure class="post__image"><img loading="lazy"  src="undefined" alt="" data-is-external-image="true"></figure>
             ]]>
         </content>
@@ -216,11 +216,11 @@
 <h1>Demos</h1>
 <h2>Basic Motions</h2>
 <figure class="post__video"><video loading="lazy" width="800" height="400" controls="controls" data-mce-fragment="1">
-<source src="/home/ian/Documents/Publii/sites/ian-hong/input/media/files/printer_basic_motions_2.webm" type="video/webm" /></video></figure>
+<source src="/media/files/printer_basic_motions_2.webm" type="video/webm" /></video></figure>
 <h2>Vertical Arc</h2>
 <p>This was actually more complicated to do than I expected because the Marlin firmware doesn't support changing planes for arc motions, it only works in the XY plane. To get a vertical arc, I had to define the geometry of the arc and interpolate waypoints.</p>
 <figure class="post__video"><video loading="lazy" width="800" height="400" controls="controls" data-mce-fragment="1">
-<source src="/home/ian/Documents/Publii/sites/ian-hong/input/media/files/printer_vertical_arc.webm" type="video/webm" /></video></figure>
+<source src="/media/files/printer_vertical_arc.webm" type="video/webm" /></video></figure>
             ]]>
         </content>
     </entry>
@@ -295,6 +295,66 @@
 <figure class="post__image"><img loading="lazy"  src="https://ianhong95.github.io/media/posts/15/vacuum_gripper_01.jpg" alt="" width="402" height="536" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://ianhong95.github.io/media/posts/15/responsive/vacuum_gripper_01-xs.jpg 640w ,https://ianhong95.github.io/media/posts/15/responsive/vacuum_gripper_01-sm.jpg 768w ,https://ianhong95.github.io/media/posts/15/responsive/vacuum_gripper_01-md.jpg 1024w ,https://ianhong95.github.io/media/posts/15/responsive/vacuum_gripper_01-lg.jpg 1366w ,https://ianhong95.github.io/media/posts/15/responsive/vacuum_gripper_01-xl.jpg 1600w ,https://ianhong95.github.io/media/posts/15/responsive/vacuum_gripper_01-2xl.jpg 1920w"></figure>
 <h1>Challenges</h1>
 <p>Due to the lack of force control in the gripper, compliant materials were more favourable. The natural springiness applied a non-damaging amount of gripping force while maintaining pressure on the objects. This is particularly important when picking objects that vary in size and geometry, as the gripper can't know when the object has been picked.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Face-Tracking Camera Turret</title>
+        <author>
+            <name>Ian</name>
+        </author>
+        <link href="https://ianhong95.github.io/face-tracking-camera-turret.html"/>
+        <id>https://ianhong95.github.io/face-tracking-camera-turret.html</id>
+        <media:content url="https://ianhong95.github.io/media/posts/11/PiCam1-2.png" medium="image" />
+            <category term="Old Projects"/>
+
+        <updated>2020-12-07T16:20:00-05:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://ianhong95.github.io/media/posts/11/PiCam1-2.png" alt="" />
+                    Introduction This was my first endeavor involving machine vision. The Raspberry Pi-controlled robot uses OpenCV to process images and detect faces using a pre-trained Haar cascade classifier. Servo motors are controlled using an I2C interface board (it was what was available to power them separately)&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://ianhong95.github.io/media/posts/11/PiCam1-2.png" class="type:primaryImage" alt="" /></p>
+                <h1 id="introduction">Introduction</h1>
+<p>This was my first endeavor involving machine vision. The Raspberry Pi-controlled robot uses OpenCV to process images and detect faces using a pre-trained Haar cascade classifier. Servo motors are controlled using an I2C interface board (it was what was available to power them separately) to attempt to align the camera with the face.</p><p><figure class="post__image"><img loading="lazy" src="https://ianhong95.github.io/media/posts/11/PiCam1.png" alt="Image description" width="342" height="392" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://ianhong95.github.io/media/posts/11/responsive/PiCam1-xs.png 640w ,https://ianhong95.github.io/media/posts/11/responsive/PiCam1-sm.png 768w ,https://ianhong95.github.io/media/posts/11/responsive/PiCam1-md.png 1024w ,https://ianhong95.github.io/media/posts/11/responsive/PiCam1-lg.png 1366w ,https://ianhong95.github.io/media/posts/11/responsive/PiCam1-xl.png 1600w ,https://ianhong95.github.io/media/posts/11/responsive/PiCam1-2xl.png 1920w"></figure>  </p><h1 id="hardware">Hardware</h1>
+<ul>
+<li>Raspberry Pi Zero WH</li>
+<li>I2C servo driver HAT for potential future integration with other projects</li>
+<li>Raspberry Pi camera module</li>
+<li>External power supply to prevent damage to the Pi due to the noise in the servos</li>
+<li>Two MG90s servo motors</li>
+<li>3D printed chassis (modeled in Solidworks and printed in PLA on an Ender 3 Pro)</li>
+</ul>
+<h1 id="software">Software</h1>
+<p>The program uses the machine vision library, OpenCV, to process images in the form of arrays and detect faces in the stream of such images. The face detection is executed via a Haar cascade classifier, which is trained using the “haarcascade_frontalface_default.xml” profile.</p><p>Due to hardware limitations in the Pi Zero W and streaming over wifi, I was only able to get a workable frame rate at an abysmal resolution of 192x128.</p><h1 id="demo">Demo</h1>
+<figure class="post__image"><img src="https://ianhong95.github.io/media/posts/11/pi_cam.gif" alt="Image description" width="324" height="339"></figure><figure class="post__image"><img loading="lazy" src="https://ianhong95.github.io/media/posts/11/pi_cam_stream.gif" alt="Image description" width="87" height="73"></figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Ender 3 Enclosure</title>
+        <author>
+            <name>Ian</name>
+        </author>
+        <link href="https://ianhong95.github.io/3d-printer-enclosure.html"/>
+        <id>https://ianhong95.github.io/3d-printer-enclosure.html</id>
+        <media:content url="https://ianhong95.github.io/media/posts/12/3DPrinter1.jpg" medium="image" />
+            <category term="Old Projects"/>
+
+        <updated>2020-08-01T16:21:00-04:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://ianhong95.github.io/media/posts/12/3DPrinter1.jpg" alt="" />
+                    Using the popular IKEA LACK table enclosure as inspiration, I built my own rendition using fully custom parts. The enclosure features fully functional doors with integrated magnets, and passthrough cutouts for power and filament. The purpose was to isolate the printer from dust and drafts&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://ianhong95.github.io/media/posts/12/3DPrinter1.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Using the popular IKEA LACK table enclosure as inspiration, I built my own rendition using fully custom parts.</p><p>The enclosure features fully functional doors with integrated magnets, and passthrough cutouts for power and filament. The purpose was to isolate the printer from dust and drafts of cold air that would cause prints to warp.</p><figure class="post__image"><img src="https://ianhong95.github.io/media/posts/12/BuildingEnclosure.jpg" alt="Image description" width="3648" height="2736" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://ianhong95.github.io/media/posts/12/responsive/BuildingEnclosure-xs.jpg 640w ,https://ianhong95.github.io/media/posts/12/responsive/BuildingEnclosure-sm.jpg 768w ,https://ianhong95.github.io/media/posts/12/responsive/BuildingEnclosure-md.jpg 1024w ,https://ianhong95.github.io/media/posts/12/responsive/BuildingEnclosure-lg.jpg 1366w ,https://ianhong95.github.io/media/posts/12/responsive/BuildingEnclosure-xl.jpg 1600w ,https://ianhong95.github.io/media/posts/12/responsive/BuildingEnclosure-2xl.jpg 1920w"></figure><figure class="post__image"><img loading="lazy" src="https://ianhong95.github.io/media/posts/12/3DPrinter1-2.jpg" alt="Image description" width="2736" height="3648" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://ianhong95.github.io/media/posts/12/responsive/3DPrinter1-2-xs.jpg 640w ,https://ianhong95.github.io/media/posts/12/responsive/3DPrinter1-2-sm.jpg 768w ,https://ianhong95.github.io/media/posts/12/responsive/3DPrinter1-2-md.jpg 1024w ,https://ianhong95.github.io/media/posts/12/responsive/3DPrinter1-2-lg.jpg 1366w ,https://ianhong95.github.io/media/posts/12/responsive/3DPrinter1-2-xl.jpg 1600w ,https://ianhong95.github.io/media/posts/12/responsive/3DPrinter1-2-2xl.jpg 1920w"></figure>
             ]]>
         </content>
     </entry>
